@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+#messages {
+    border: 1px solid black;
+    float: left;
+    display: inline-block;
+    padding: 2em;
+    margin: 2em;
+}
+
+#messages2 {
+    border: 1px solid black;
+    float: left;
+    display: inline-block;
+    padding: 2em;
+    margin: 2em;
+}

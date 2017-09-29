@@ -3,7 +3,20 @@
   <%= render @messages %>
 </div>
 
-<form>
-  <label>Chat hur:</label><br>
-  <input type='text' data-behavior='room_speaker'>
-</form>
+<div id='messages2'>
+  <%= render @messages %>
+</div>
+
+<div id='player1'>
+  <form>
+    <label>Chat hur:</label><br>
+    <textarea data-behavior='room_speaker'></textarea>
+  </form>
+</div>
+
+<div id='player2'>
+  <form>
+    <label>Chat hur:</label><br>
+    <textarea type='text' data-behavior='room_speaker'></textarea>
+  </form>
+</div>
